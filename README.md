@@ -10,7 +10,7 @@ Configuration:
  {
             "accessory": "SSHomeMode",
             "name": "Security Cameras",
-            "url": "https://192.168.1.x:5000/",
+            "url": "https://192.168.1.x:5001/",
             "username": "user",
             "password": "password
         }
