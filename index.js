@@ -37,7 +37,7 @@ HttpMultiswitch.prototype = {
                     callback(error, response, body);
                 }
                 else {
-                    _this.httpRequest("/webapi/auth.cgi?api=SYNO.API.Auth&method=Login&version=3&account=" + _this.username + "&passwd=" + _this.password + "&session=SurveillanceStation&format=sid",
+                    _this.httpRequest("/webapi/auth.cgi?api=SYNO.API.Auth&method=login&version=6&account=" + _this.username + "&passwd=" + _this.password + "&session=SurveillanceStation&format=sid",
                         function (err, resp, bod) {
                             var r = JSON.parse(bod);
                             if (r.success) {
@@ -64,7 +64,7 @@ HttpMultiswitch.prototype = {
                 callback(error);
             } else {
                 var resp = JSON.parse(responseBody);
-                callback(error, resp.data.on);
+                callback(error, !resp.data.on);
             }
         }.bind(this));
     },
