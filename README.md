@@ -1,4 +1,4 @@
-# homebridge-synology-surveillance-homemode
+# homebridge-synology-surveillance-homemode FOR DSM7
 
 Simple Homebridge plugin to turn on/off homemode on Synology Surveillance station.
 
