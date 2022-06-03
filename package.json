@@ -1,13 +1,13 @@
 {
-  "name": "homebridge-synology-surveillance-homemode",
-  "version": "1.0.3",
-  "author": "jonbell",
+  "name": "Synology-Surveillance-Homemode-DSM7",
+  "version": "1",
+  "author": "Geoff-Hz",
   "description": "Homebridge switch for synology surveillance station's home mode (forked from homebridge-http-multiswitch)",
   "license": "MIT",
-  "homepage": "https://github.com/jon-bell/homebridge-synology-surveillance-homemode",
+  "homepage": "https://github.com/Geoff-Hz/Synology-Surveillance-Homemode-DM7",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jon-bell/homebridge-synology-surveillance-homemode"
+    "url": "git+https://github.com/Geoff-Hz/Synology-Surveillance-Homemode-DM7"
   },
   "keywords": [
     "homebridge-plugin",
@@ -24,6 +24,6 @@
     "request": "^2.65.0"
   },
   "bugs": {
-    "url": "https://github.com/jon-bell/homebridge-synology-surveillance-homemode/issues"
+    "url": "https://github.com/Geoff-Hz/Synology-Surveillance-Homemode-DM7/issues"
   }
 }
